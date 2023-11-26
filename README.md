@@ -1,3 +1,3 @@
-## weather-app
+## weather-app ⛅
 
-A simple cli-based weather application written in Rust ⛅
+A simple cli-based weather application written in Rust
