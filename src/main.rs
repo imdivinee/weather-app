@@ -2,8 +2,7 @@ use log::{error, info, Level};
 use std::io;
 
 const UNIT: &str = "metric";
-// I was lazy 😔, thanks: https://github.com/kshitizrohilla/weather-app-using-openweathermap-api
-const API_KEY: &str = "b1fd6e14799699504191b6bdbcadfc35";
+const API_KEY: &str = ""; // Get a openweather-api key and toss that body boy in here
 const USER_AGENT: &str = "Mozilla/5.0 (Linux x86_64; rv:115.0) Gecko/20100101 Firefox/115.0";
 
 async fn get_weather(city: &str) -> Result<(), reqwest::Error> {
